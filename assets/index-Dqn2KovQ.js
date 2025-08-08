@@ -638,7 +638,7 @@ If it declares any Font Awesome CSS pseudo-elements, they will not be rendered a
   "CONTACT_TEXT": "Susisiekite",\r
   "REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_TEXT": "Registruok  savo pukuotą žvėriuką būti modeliu!"\r
 }\r
-`,z5={},zc=Object.assign({"../assets/strings/kk_en.json":l71,"../assets/strings/kk_lt.json":e71});Object.keys(zc).map(c=>{const a=c.match(/.*_(.*)\.json$/);let l="unknown";a&&a.length!==0&&(l=a[1]),z5[l]={...z5[l],...JSON.parse(zc[c])}});const r71=await fetch("https://ipapi.co/json/").then(c=>c.json()).then(c=>c.country_code.toLowerCase()),s71=localStorage.getItem("locale")||r71,az=G81({legacy:!1,locale:s71??navigator.language.slice(0,2),fallbackLocale:navigator.language.slice(0,2),globalInjection:!0,messages:z5}),i71=[{key:"en",value:"EN"},{key:"lt",value:"LT"}],{global:{t:m2}}=az;/*!
+`,z5={},zc=Object.assign({"../assets/strings/kk_en.json":l71,"../assets/strings/kk_lt.json":e71});Object.keys(zc).map(c=>{const a=c.match(/.*_(.*)\.json$/);let l="unknown";a&&a.length!==0&&(l=a[1]),z5[l]={...z5[l],...JSON.parse(zc[c])}});const r71=await fetch("https://ipapi.co/json/").then(c=>c.json()).then(c=>c.country_code.toLowerCase()).catch(()=>"lt"),s71=localStorage.getItem("locale")||r71,az=G81({legacy:!1,locale:s71??navigator.language.slice(0,2),fallbackLocale:navigator.language.slice(0,2),globalInjection:!0,messages:z5}),i71=[{key:"en",value:"EN"},{key:"lt",value:"LT"}],{global:{t:m2}}=az;/*!
   * vue-router v4.5.1
   * (c) 2025 Eduardo San Martin Morote
   * @license MIT
