@@ -3,7 +3,8 @@ import messages from './localizationMessages';
 
 const fetchedLocale = await fetch('https://ipapi.co/json/')
   .then((res) => res.json())
-  .then((data) => data.country_code.toLowerCase());
+  .then((data) => data.country_code.toLowerCase())
+  .catch(() => 'lt');
 
 const locale = localStorage.getItem('locale') || fetchedLocale;
 
