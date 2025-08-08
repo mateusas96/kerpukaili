@@ -23,7 +23,7 @@
   >
     <div class="flex w-full flex-col">
       <div
-        class="flex justify-between items-center px-4 bg-red-200 hover:bg-red-300 p-2"
+        class="flex justify-between items-center px-4 bg-red-200/50 hover:bg-red-300 p-2"
         :class="{
           'rounded-lg': !isOpen,
           'rounded-t-lg': isOpen,
