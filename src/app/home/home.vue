@@ -68,7 +68,7 @@
 <template>
   <div class="flex flex-col flex-1 items-center">
     <scissor-rain />
-    <div class="flex flex-col flex-1 items-center justify-center gap-8 w-full p-2 md:p-0 md:w-1/2">
+    <div class="flex flex-col flex-1 items-center justify-center gap-8 w-full p-2 md:w-[700px] lg:w-[900px]">
       <div class="text-4xl pt-4 text-center italic">
         {{ $t('REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_TEXT') }}
       </div>
