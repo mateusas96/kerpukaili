@@ -70,7 +70,7 @@
     <scissor-rain />
     <div class="flex flex-col flex-1 items-center justify-center gap-8 w-full p-2 md:w-[700px] lg:w-[900px]">
       <div class="text-4xl pt-4 text-center italic">
-        {{ $t('REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_TEXT') }}
+        {{ $t('REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_TEXT') }} <sup class="text-red-500">*</sup>
       </div>
       <div class="flex flex-col gap-2 w-full justify-center">
         <accordion
@@ -87,7 +87,7 @@
         </accordion>
       </div>
       <div class="text-xl md:text-2xl text-center">
-        {{ $t('REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_DESCRIPTION_TEXT') }}
+        <sup class="text-red-500">*</sup>{{ $t('REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_DESCRIPTION_TEXT') }}
       </div>
     </div>
   </div>
