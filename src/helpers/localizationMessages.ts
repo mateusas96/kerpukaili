@@ -1,5 +1,9 @@
 const messages: { [key: string]: { [key: string]: { value: string } } } = {};
-const localizationFiles = import.meta.glob('../assets/strings/*.json', { as: 'raw', eager: true });
+const localizationFiles: { [key: string]: string } = import.meta.glob('../assets/strings/*.json', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+});
 
 Object.keys(localizationFiles).map((file) => {
   const langRes = file.match(/.*_(.*)\.json$/);

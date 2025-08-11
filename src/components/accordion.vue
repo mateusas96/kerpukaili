@@ -1,19 +1,8 @@
 <script setup lang="ts">
-  import { computed, ref } from 'vue';
+  import { ref } from 'vue';
   import transitionExpand from './transition-expand.vue';
 
-  const props = defineProps({
-    title: {
-      type: String,
-      required: true,
-    },
-  });
-
   const isOpen = ref(false);
-
-  const icon = computed(() => {
-    return isOpen.value ? 'fa-solid fa-chevron-up' : 'fa-solid fa-chevron-down';
-  });
 </script>
 
 <template>
@@ -29,14 +18,19 @@
           'rounded-t-lg': isOpen,
         }"
       >
-        <div class="text-lg font-semibold uppercase">{{ props.title }}</div>
+        <div class="flex flex-1 text-2xl md:text-3xl font-medium uppercase">
+          <slot name="title" />
+        </div>
         <div
-          class="transform duration-400"
+          class="flex items-center transform duration-400"
           :class="{
             '-rotate-180': isOpen,
           }"
         >
-          <fa-icon icon="fa-solid fa-chevron-down" />
+          <fa-icon
+            icon="fa-solid fa-chevron-down"
+            class="w-[16px]! h-[16px]! md:w-[20px]! md:h-[20px]!"
+          />
         </div>
       </div>
       <transition-expand>
