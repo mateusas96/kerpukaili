@@ -18,6 +18,7 @@ body,
 
 @theme {
   --animate-fall: fall 5s linear infinite;
+  --animate-fall-backwards: fall-backwards 5s linear infinite;
 
   @keyframes fall {
     0% {
@@ -26,6 +27,17 @@ body,
     }
     100% {
       transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  @keyframes fall-backwards {
+    0% {
+      transform: translateY(-100px) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(-360deg);
       opacity: 0;
     }
   }

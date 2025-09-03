@@ -6,8 +6,9 @@
 
   function createScissor() {
     const scissor = document.createElement('div');
+    const animation = Math.round(Math.random()) ? 'animate-fall' : 'animate-fall-backwards';
     scissor.textContent = '✂️';
-    scissor.className = 'absolute select-none top-0 pointer-events-none duration-[5s] animate-fall';
+    scissor.className = `absolute select-none top-0 pointer-events-none duration-[5s] ${animation}`;
 
     scissor.style.left = `${Math.random() * window.innerWidth}px`;
     scissor.style.fontSize = `${15 + Math.random() * 20}px`;
