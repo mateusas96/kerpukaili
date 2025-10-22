@@ -25,5 +25,6 @@
   "CREATIVE_GROOMING_DESCRIPTION_TEXT": "Išskirtinis ir toks, kokio dar niekas nematė! Rožinis uodegos galiukas, o gal eglute iškirptas kailis? Kokį stilių rinksitės jūs?",
   "CONTACT_TEXT": "Susisiekite",
   "REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_TEXT": "Registruok savo pūkuotą žvėriuką būti modeliu!",
-  "REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_DESCRIPTION_TEXT": "Šis pasiūlymas skelbiamas instagram paskyroje kartu su daugiau detalių."
+  "REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_DESCRIPTION_TEXT": "Šis pasiūlymas skelbiamas instagram paskyroje kartu su daugiau detalių.",
+  "FROM_PRICE_FMT": "Nuo {price}"
 }

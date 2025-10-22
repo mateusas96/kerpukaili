@@ -1,5 +1,5 @@
 {
-  "COMPANY_NAME_TEXT": "Kerpu kailį (Fur grooming)",
+  "COMPANY_NAME_TEXT": "Kerpu kaili",
   "IT_IS_NOT_FUR_IT_IS_GLITTER_TEXT": "It's not fur, it's glitter!",
   "FULL_GROOMING_TEXT": "Full grooming",
   "FULL_GROOMING_DESCRIPTION_TEXT": "This service includes bathing, drying, detangling, clipping, and nail trimming.",
@@ -25,5 +25,6 @@
   "CREATIVE_GROOMING_DESCRIPTION_TEXT": "Unique and unlike anything anyone has ever seen before! A pink tail tip, or perhaps a Christmas tree-shaped coat? Which style will you choose?",
   "CONTACT_TEXT": "Contact",
   "REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_TEXT": "Register your fluffy pet to become a model!",
-  "REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_DESCRIPTION_TEXT": "This offer is advertised on our Instagram account along with more details."
+  "REGISTER_YOUR_FUR_BACK_TO_BE_A_MODEL_DESCRIPTION_TEXT": "This offer is advertised on our Instagram account along with more details.",
+  "FROM_PRICE_FMT": "From {price}"
 }

@@ -9,7 +9,7 @@
       {
         title: t('FULL_GROOMING_TEXT'),
         description: t('FULL_GROOMING_DESCRIPTION_TEXT'),
-        price: '30€',
+        price: '35€',
       },
       {
         title: t('TRIMMING_TEXT'),
@@ -24,7 +24,7 @@
       {
         title: t('DESHEDDING_TEXT'),
         description: t('DESHEDDING_DESCRIPTION_TEXT'),
-        price: '25€',
+        price: t('FROM_PRICE_FMT', { price: '30€' }),
       },
       {
         title: t('NAIL_TRIMMING_TEXT'),
@@ -49,17 +49,17 @@
       {
         title: t('PUPPY_GROOMING_TEXT'),
         description: t('PUPPY_GROOMING_DESCRIPTION_TEXT'),
-        price: '20€',
+        price: '25€',
       },
       {
         title: t('DE_MATTING_TEXT'),
         description: t('DE_MATTING_DESCRIPTION_TEXT'),
-        price: '25€',
+        price: t('FROM_PRICE_FMT', { price: '30€' }),
       },
       {
         title: t('CREATIVE_GROOMING_TEXT'),
         description: t('CREATIVE_GROOMING_DESCRIPTION_TEXT'),
-        price: '30€',
+        price: t('FROM_PRICE_FMT', { price: '35€' }),
       },
     ];
   });
