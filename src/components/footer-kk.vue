@@ -1,6 +1,8 @@
 <script setup lang="ts">
   import { computed } from 'vue';
 
+  const currentYear = new Date().getFullYear();
+
   const contactInfo = computed(() => {
     return [
       {
@@ -46,7 +48,7 @@
             class="w-[16px]! h-[16px]! md:w-[20px]! md:h-[20px]!"
           />
           <a
-            class="text-red-500 text-lg md:text-xl"
+            class="text-red-500 text-lg md:text-xl hover:underline"
             :href="item.link"
             :target="item.target"
             rel="noopener noreferrer"
@@ -55,7 +57,7 @@
           </a>
         </div>
       </div>
-      <div class="text-xl pt-2 md:pt-0">&copy; 2025 {{ $t('COMPANY_NAME_TEXT') }}</div>
+      <div class="text-xl pt-2 md:pt-0">&copy; {{ currentYear }} {{ $t('COMPANY_NAME_TEXT') }}</div>
     </div>
   </div>
 </template>

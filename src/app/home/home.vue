@@ -9,22 +9,22 @@
       {
         title: t('FULL_GROOMING_TEXT'),
         description: t('FULL_GROOMING_DESCRIPTION_TEXT'),
-        price: '30€',
+        price: `${t('FROM_TEXT')} 35€`,
       },
       {
         title: t('TRIMMING_TEXT'),
         description: t('TRIMMING_DESCRIPTION_TEXT'),
-        price: '35€',
+        price: '40€',
       },
       {
         title: t('BATH_N_BRUSH_TEXT'),
         description: t('BATH_N_BRUSH_DESCRIPTION_TEXT'),
-        price: '20€',
+        price: '30€',
       },
       {
-        title: t('DESHEDDING_TEXT'),
-        description: t('DESHEDDING_DESCRIPTION_TEXT'),
-        price: '25€',
+        title: t('DOG_DESHEDDING_TEXT'),
+        description: t('DOG_DESHEDDING_DESCRIPTION_TEXT'),
+        price: `${t('FROM_TEXT')} 35€`,
       },
       {
         title: t('NAIL_TRIMMING_TEXT'),
@@ -37,29 +37,34 @@
         price: '10€',
       },
       {
-        title: t('PAW_PAD_TRIM_TEXT'),
-        description: t('PAW_PAD_TRIM_DESCRIPTION_TEXT'),
-        price: '10€',
-      },
-      {
         title: t('SANITARY_TRIM_TEXT'),
         description: t('SANITARY_TRIM_DESCRIPTION_TEXT'),
-        price: '15€',
+        price: '25€',
       },
       {
         title: t('PUPPY_GROOMING_TEXT'),
         description: t('PUPPY_GROOMING_DESCRIPTION_TEXT'),
-        price: '20€',
+        price: '30€',
       },
       {
-        title: t('DE_MATTING_TEXT'),
-        description: t('DE_MATTING_DESCRIPTION_TEXT'),
-        price: '25€',
+        title: t('CAT_SHAVING_LION_STYLE_TEXT'),
+        description: t('CAT_SHAVING_LION_STYLE_DESCRIPTION_TEXT'),
+        price: `${t('FROM_TEXT')} 40€`,
+      },
+      {
+        title: t('CAT_SPA_TEXT'),
+        description: t('CAT_SPA_DESCRIPTION_TEXT'),
+        price: `${t('FROM_TEXT')} 45€`,
+      },
+      {
+        title: t('CAT_DESHEDDING_TEXT'),
+        description: t('CAT_DESHEDDING_DESCRIPTION_TEXT'),
+        price: '35€',
       },
       {
         title: t('CREATIVE_GROOMING_TEXT'),
         description: t('CREATIVE_GROOMING_DESCRIPTION_TEXT'),
-        price: '30€',
+        price: `${t('FROM_TEXT')} 50€`,
       },
     ];
   });
